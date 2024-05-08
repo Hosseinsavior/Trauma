@@ -43,13 +43,13 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 
     -   Erstellen Sie einen neuen Worker in der Cloudflare Worker-Konsole.
 
-    -   Wille[worker.js](https://github.com/NiREvil/Trauma/blob/main/_worker.js)Fügen Sie den Inhalt in den Worker-Editor ein.
+    -   Wille[worker.js](https://github.com/Hosseinsavior/Trauma/blob/main/_worker.js)Fügen Sie den Inhalt in den Worker-Editor ein.
 
     -   Ändern Sie Zeile 3`password`Ändern Sie es in Ihr eigenes**Passwort**
 
     -   Alternativ können Sie auf die Schaltfläche unten klicken, um die Bereitstellung direkt durchzuführen.
 
-    [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
+    [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Hosseinsavior/Trauma)
 
 2.  Bevorzugte Route hinzufügen:
     -   Geben`addresses`Fügen Sie den bevorzugten Domänennamen/die bevorzugte saubere IP entsprechend dem Format hinzu. Wenn keine Portnummer vorhanden ist, ist der Standard-TLS-Port 443 und das #-Zeichen ist der Bemerkungsalias, zum Beispiel:
@@ -79,7 +79,7 @@ Dies ist ein Skript, das auf der Cloudflare Worker-Plattform basiert. Basierend 
 ## Bereitstellungsmethode für Seiten
 
 1.  Stellen Sie Cloudflare-Seiten bereit:
-    -   Gabel[dieses Projekt auf Github](https://github.com/NiREvil/Trauma/fork)
+    -   Gabel[dieses Projekt auf Github](https://github.com/Hosseinsavior/Trauma/fork)
     -   Wählen Sie in der Cloudflare Pages-Konsole aus`Connected to Git`Danach wählen Sie aus`trauma`Klicken Sie hinter dem Element`Start setting up`。
     -   existieren`Setting up build and deployment`Wählen Sie unten auf der Seite aus`Environment variables (advanced)`später zusammenführen[Variablen hinzufügen](#Environment-variables-description),
     -   Geben Sie den Variablennamen ein**PASSWORT**, der Wert ist Ihr Passwort, dann klicken Sie`Save and deploy`Das ist es.
