@@ -48,12 +48,12 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 
 1.  Deploy Cloudflare Worker:
     - Create a new Worker in the Cloudflare Worker console.
-    - Will [worker.js](https://github.com/NiREvil/Trauma/blob/main/_worker.js) Paste the contents into the Worker editor.
+    - Will [worker.js](https://github.com/Hosseinsavior/Trauma/blob/main/_worker.js) Paste the contents into the Worker editor.
     - Change line 3 `password` Modify it to your own **password**
   
     - Alternatively, you can click the button below to deploy directly.
 
-   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/NiREvil/Trauma)
+   [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Hosseinsavior/Trauma)
 
 3.  Add preferred route:
     - Give `addresses` Add the preferred domain name/preferred clean IP according to the format. If there is no port number, the default TLS port is 443, and the # sign is the remark alias, for example:
@@ -82,7 +82,7 @@ This is a script based on the Cloudflare Worker platform. Based on the original 
 ## Pages deployment method
 
 1. Deploy Cloudflare Pages:
-    - Fork [this project on Github](https://github.com/NiREvil/Trauma/fork)
+    - Fork [this project on Github](https://github.com/Hosseinsavior/Trauma/fork)
     - Select in the Cloudflare Pages console `Connected to Git` After that, select `trauma` Click after the item `Start setting up`。
     - exist `Setting up build and deployment` At the bottom of the page, select `Environment variables (advanced)` merge later [Add variables](#Environment-variables-description),
      - Fill in the variable name **PASSWORD** , the value is your password, then click `Save and deploy` That’s it.
